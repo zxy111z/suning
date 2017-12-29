@@ -1,0 +1,27 @@
+/*
+* @Author: 11069
+* @Date:   2017-11-28 13:58:56
+* @Last Modified by:   11069
+* @Last Modified time: 2017-12-05 08:30:39
+*/
+*{
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑","宋体",sans-serif;
+	font-size: 16px;
+	list-style:none;
+}
+/* 去掉a标签的下划线 */
+a{
+	text-decoration: none;
+}
+body{
+	background: #f2f2f2 ;
+}
+img{
+	border: none;
+}
+i{
+  font-style:normal;
+}
