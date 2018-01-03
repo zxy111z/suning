@@ -2995,8 +2995,9 @@ aside{
 	background: #f8f8f8;
 	border: 1px solid #e8e8e8;
 	position: relative;
+	display: none;
 }
-.aside-nr li:first-child a{
+.aside-nr .active a{
 	background: #f60;
 	color: #fff;
 }
@@ -3027,4 +3028,47 @@ aside{
     width: 68px;
     height: 18px;
     background: url('../img/tupianjingling.png') -230px -183px;
+}
+.topbar{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	position: fixed;
+	top:-50px;
+	left:0;
+	transition: all .5s;
+	z-index: 99;
+}
+.top-main{
+	width: 1190px;
+	height: 50px;
+	/*background: red;*/
+	margin:auto;
+}
+
+.fenleis{
+	width: 163px;
+	height: 38px;
+	background: #f90;
+	float: left;
+	/*margin-top: 6px;*/
+	padding-left:27px;
+	line-height: 38px;
+	color:#fff;
+	font-size: 14px;
+	position: relative;
+}
+.ibox{
+	width: 12px;
+	height: 12px;
+	background: #000;
+	position: absolute;
+	top:13px;
+	left:9px;
+}
+.sss{
+	display: block;
+	width: 540px;
+	height: 40px;
+	margin:5px auto;
 }
